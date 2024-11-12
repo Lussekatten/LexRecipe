@@ -57,7 +57,7 @@ In that case, the footer images will take 96% of the parent container width
 (they get bigger and are placed on top of eachother)*/
 @media screen and (max-width: 600px) {
     .img-bottom {
-        width: 96%;
+        width: 98%;
         padding: 1px;
     }
   }
