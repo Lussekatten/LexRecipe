@@ -1,0 +1,59 @@
+h1 {
+    color: rgb(202, 34, 34);
+    font-size: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.6vw;
+}
+
+#nr-1 {
+    background-color: #EBEBEB;
+    height: 3.8vw;
+    /*1vw = 1% of the size*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    /* text-align: center; */
+    padding-left: 10px;
+    vertical-align: middle;
+    line-height: 3.8vw;
+    font-size: 2vw;
+}
+
+#img-header {
+    width: 70vw;
+    height: auto;
+}
+
+.img-bottom {
+    width: 30.8vw;
+    padding: 1px;
+}
+
+body {
+    background-color: rgb(120, 204, 230);
+}
+
+#content {
+    background-color: white;
+    margin: auto;
+    width: 70vw;
+    border: 1px solid rgb(127, 168, 127);
+}
+
+#main-content {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid green; */
+}
+
+/* The code below is just for future reference. 
+Doing nothing at the moment*/
+@media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
