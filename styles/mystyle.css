@@ -1,3 +1,5 @@
+/* Github location: https://github.com/Lussekatten/LexRecipe */
+
 h1 {
     color: rgb(202, 34, 34);
     font-size: 3vw;
@@ -50,10 +52,12 @@ body {
     /* border: 1px solid green; */
 }
 
-/* The code below is just for future reference. 
-Doing nothing at the moment*/
+/* The code below comes into action when we use a viewport with 600 pixels or lower width 
+In that case, the footer images will take 96% of the parent container width 
+(they get bigger and are placed on top of eachother)*/
 @media screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px;
+    .img-bottom {
+        width: 96%;
+        padding: 1px;
     }
   }
